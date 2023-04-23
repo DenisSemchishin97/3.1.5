@@ -30,8 +30,8 @@ public class Creat {
         SetRoles.add(role1);
         Set<Role>users=new HashSet<>();
         users.add(role1);
-        User user = new User("Denis","user", "$2y$10$aHyB0C.gDd4p2U.jLBCS8ep6U4eh/CFSvZUCM8OTAcuAUb2h5Crgq",25L,"denis@mail.ru",SetRoles);
-        User user1 = new User("noname","user1","$2y$10$aHyB0C.gDd4p2U.jLBCS8ep6U4eh/CFSvZUCM8OTAcuAUb2h5Crgq",33L,"noname@mail.com",users);
+        User user = new User("Denis","user", "100",25L,"denis@mail.ru",SetRoles);
+        User user1 = new User("noname","user1","100",33L,"noname@mail.com",users);
         userRepository.saveUser(user);
         userRepository.saveUser(user1);
     }

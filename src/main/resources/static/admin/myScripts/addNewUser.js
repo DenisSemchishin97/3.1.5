@@ -51,7 +51,7 @@ addForm.addEventListener('submit', (e) => {
     }).then(() => {
             addForm.reset();
             myUsers();
-//             $('#home-tab').click
+        document.querySelector('#home-tab').click();
         }
     )
 })
